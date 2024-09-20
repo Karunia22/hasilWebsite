@@ -65,7 +65,7 @@
             text-align: center;
         }
 
-        .container .kiri .singIn center a button {
+        .container .kiri .singIn .center button {
             margin-top: 15px;
             height: 50px;
             width: 120px;
@@ -126,15 +126,16 @@
             text-align: center;
         }
 
-        .container .kanan .signUp center input {
+        .container .kanan .signUp input {
             margin-bottom: 10px;
             height: 35px;
             width: 300px;
             padding-left: 10px;
-            background-color:rgb(237, 237, 237);
+            background-color: rgb(237, 237, 237);
             border: none;
         }
-        .container .kanan .signUp center a button {
+
+        .container .kanan .signUp .center button {
             margin-top: 15px;
             height: 50px;
             width: 120px;
@@ -144,6 +145,11 @@
             font-family: Arial, Helvetica, sans-serif;
             color: white;
             font-size: 15px;
+        }
+
+        .center {
+            margin-top: 15px;
+            margin-left: 89px;
         }
     </style>
 </head>
@@ -160,11 +166,12 @@
                 <p>
                     Untuk terhubung dengan akun ini, silahkan hubungkan akun anda
                 </p>
-                <center>
-                    <a href="#">
-                        <button>SIGN IN</button>
-                    </a>
-                </center>
+                <div class="center">
+
+                    <button>SIGN IN</button>
+
+                </div>
+
             </div>
         </div>
         <div class="kanan">
@@ -174,7 +181,7 @@
                         Buat Akun
                     </h1>
                 </header>
-                <center>
+                <div class="center">
                     <ul>
                         <li>
                             <a href="#">
@@ -187,18 +194,18 @@
                             </a>
                         </li>
                     </ul>
-                </center>
+                </div>
+
                 <p>
                     atau gunakan email untuk registrasi
                 </p>
-                <center>
-                    <input type="text" placeholder="Nama">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
-                </center>
-                <center>
-                    <a href="#"><button>SIGN UP</button></a>
-                </center>
+
+                <input type="text" placeholder="Nama">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <div class="center">
+                    <button>SIGN UP</button>
+                </div>
             </div>
         </div>
         <div class="clear"></div>
